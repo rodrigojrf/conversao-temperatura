@@ -1,0 +1,6 @@
+FROM ubuntu
+# comentario 01/01/2022
+# para evitar usar o cache nas instalações coloca apenas uma linha de run apt
+RUN apt update && \
+    apt install tree curl vim --yes
+    
